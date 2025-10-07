@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 
 const Home = () => {
     return (
-        <div className="bg-[#312f2f] min-h-screen text-white">
+        <div className="max-w-[1200px] mx-auto px-4">
             <Nav />
         </div>
     );

@@ -4,7 +4,7 @@ import Home from "./page/Home";
 
 const App = () => {
   return (
-    <div >
+    <div className=" bg-[#312f2f] min-h-screen text-white">
       <Home />
     </div>
   );
