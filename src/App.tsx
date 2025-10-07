@@ -1,9 +1,11 @@
- 
+import Home from "./page/Home";
+
+
 
 const App = () => {
   return (
-    <div>
-      <h1>Hellow gyes</h1>
+    <div >
+      <Home />
     </div>
   );
 };
