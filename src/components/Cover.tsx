@@ -2,7 +2,7 @@ import modelImage from "../assets/cover/model.webp"
 import CoverButton from "./sub-components/CoverButton";
 const Cover = () => {
     return (
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center min-h-[80vh]">
             {/* cover text and buttons. */}
             <div className="flex flex-col gap-[30px] min-w-[600px] max-w-1/2">
                 <h3 className="text-[20px] text-[#ffbd39] poppins-extrabold">Hello !</h3>
