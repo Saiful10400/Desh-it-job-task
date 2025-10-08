@@ -15,7 +15,7 @@ const Cover = () => {
             </div>
 
             {/* cover model image. */}
-            <div className="max-w-[50%] max-h-full min-h-[700px]">
+            <div className="max-w-[50%] max-h-full h-[750px]">
                 <img className="w-full h-full object-contain" src={modelImage} alt="model image." />
             </div>
         </div>
