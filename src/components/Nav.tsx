@@ -1,29 +1,33 @@
-import { useState } from "react";
-import MobileNavButton from "./sub-components/MobileNavButton";
-import MobileNavList from "./sub-components/MobileNavList";
+import { useEffect, useState } from "react";
+import NavUi from "./sub-components/NavUi";
 
 
 const Nav = () => {
-    const [clicked, setClicked] = useState(false)
-    const navRoutes = ["HOME", "ABOUT", "SERVICES", "RESUME", "PORTFOLIO", "BLOG", "CONTACT"]
 
+    // how muc i have scrolled.
+    const [scrollY, setScrollY] = useState(0);
+    useEffect(() => {
+        const handleScroll = () => {
+
+            setScrollY(window.scrollY);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        handleScroll()
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    console.log(scrollY)
     return (
-        <div>
-            <div className="flex justify-between items-center py-[15px]">
-                {/* logo */}
-                <a href="#" className="text-[30px] poppins-black font-bold">CodeC</a>
-
-                {/* nav route. */}
-                <ul className=" gap lg:flex hidden">
-                    {navRoutes.map((route) => (<li>
-                        <a className="px-[18px] py-[10px] text-[15px] hover:text-white text-gray-300" href={"#" + route}>{route}</a>
-                    </li>))}
-                </ul>
-                <MobileNavButton clicked={clicked} tauglerFn={setClicked} />
+        <div className="">
+            <NavUi />
+            <div className={`${scrollY >= 150 ? "opacity-100 translate-y-0 fixed top-0 z-50 transition-all duration-1000" : "-translate-y-10 opacity-0"} w-full bg-[#333333] drop-shadow-md drop-shadow-gray-500`}>
+                <NavUi />
             </div>
-            <MobileNavList clicked={clicked} />
         </div>
     );
 };
 
 export default Nav;
+
+// 

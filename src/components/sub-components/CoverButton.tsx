@@ -10,7 +10,7 @@ const CoverButton = ({text,bg}:{text:string,bg:string}) => {
 
     // handle mouse move.
     const handleMouseMove = (e: MouseEvent<HTMLButtonElement>) => {
-        console.log(e.currentTarget.getBoundingClientRect(), "event:clientx-", e.clientX)
+        // console.log(e.currentTarget.getBoundingClientRect(), "event:clientx-", e.clientX)
         const left = e.clientX - e.currentTarget.getBoundingClientRect().left
         const top = e.clientY - e.currentTarget.getBoundingClientRect().top
         setX(left)
