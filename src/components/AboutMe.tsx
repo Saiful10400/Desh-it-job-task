@@ -6,7 +6,7 @@ import CenterAlign from "./utils/CenterAlign";
 
 const AboutMe: React.FC = () => {
     return (
-       <div className="bg-[#312f2f]">
+       <div className="bg-[#312f2f] py-[100px]">
         <CenterAlign>
          <section className="flex items-center  text-[#b2b0b1] pt-[100px]">
             <div className="max-w-4xl mx-auto flex flex-col min-w-[58%]">
