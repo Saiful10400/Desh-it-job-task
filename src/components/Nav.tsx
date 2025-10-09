@@ -17,7 +17,7 @@ const Nav = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    console.log(scrollY)
+ 
     return (
         <div className="relative">
             <div className="z-50 relative"><NavUi /></div>
