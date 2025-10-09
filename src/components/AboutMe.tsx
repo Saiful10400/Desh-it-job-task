@@ -2,10 +2,13 @@ import React from "react";
 import { Facebook, Twitter, Instagram, Globe } from "lucide-react";
 import CoverButton from "./sub-components/CoverButton";
 import AboutMeAchivement from "./sub-components/AboutMeAchivement";
+import CenterAlign from "./utils/CenterAlign";
 
 const AboutMe: React.FC = () => {
     return (
-        <section className="flex items-center  text-[#b2b0b1] max-w-[1350px] mx-auto px-4 pt-[100px]">
+       <div className="bg-[#312f2f]">
+        <CenterAlign>
+         <section className="flex items-center  text-[#b2b0b1] pt-[100px]">
             <div className="max-w-4xl mx-auto flex flex-col min-w-[58%]">
                 {/* Title */}
                 <h3 className="text-[#ffbd39] text-xl font-semibold tracking-wide mb-[15px]">
@@ -73,6 +76,8 @@ const AboutMe: React.FC = () => {
             </div>
             <AboutMeAchivement/>
         </section>
+       </CenterAlign>
+       </div>
     );
 };
 
