@@ -1,6 +1,7 @@
 import AboutMe from "../components/AboutMe";
 import Cover from "../components/Cover";
 import Nav from "../components/Nav";
+import Service from "../components/Service";
  
 
 
@@ -10,6 +11,7 @@ const Home = () => {
             <Nav />
             <Cover />
             <AboutMe />
+            <Service/>
         </div>
     );
 };
