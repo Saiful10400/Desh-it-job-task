@@ -6,7 +6,7 @@ const ResumeSection = ({ tittle, data, className }: {className?:string, tittle: 
     return (
         <div className={className}>
             <h1 className="text-center text-[32px] poppins-bold text-[#ccc] mb-[32px]">{tittle}</h1>
-            <div className="grid grid-cols-3 gap-[24px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px]">
                 {data?.map((item, key) => <ResumeCard data={item} key={key} />)}
             </div>
         </div>

@@ -51,11 +51,11 @@ const Resume = () => {
     const tittle = "Our Resume"
     const heading = "Etiam suscipit ante at sem facilisis, id sagittis nunc aliquet. Vivamus sodales elementum pharetra. Cras dignissim justo eu accumsan vulputate."
     return (
-        <div className="bg-[#312f30]">
+        <div className="bg-[#312f30] pb-[40px] md:pb-[100px] pt-[40px] md:pt-[100px]">
             <SectionTittle tittle={tittle} heading={heading} />
             <CenterAlign>
                 <ResumeSection data={EducaitonDemoData} tittle="My Education" />
-                <ResumeSection className="mt-[72px] pb-[100px]" data={ExperienceDemoData} tittle="My Experience" />
+                <ResumeSection className="mt-[72px]" data={ExperienceDemoData} tittle="My Experience" />
             </CenterAlign>
         </div>
     );
