@@ -1,4 +1,5 @@
 import AboutMe from "../components/AboutMe";
+import Blog from "../components/Blog";
 import Cover from "../components/Cover";
 import Nav from "../components/Nav";
 import Resume from "../components/Resume";
@@ -14,6 +15,7 @@ const Home = () => {
             <AboutMe />
             <Service />
             <Resume />
+            <Blog/>
         </div>
     );
 };
