@@ -87,3 +87,8 @@
   font-weight: 700;
   font-style: normal;
 }
+
+/* clip path class. */
+.clip-path {
+  clip-path: polygon(25% 0, 0 100%, 100% 0);
+}

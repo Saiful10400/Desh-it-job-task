@@ -77,4 +77,32 @@ console.log(notIncludeId)
     );
 };
 
-export default Portfoliov2;
+export default Portfoliov2;   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-=-=-=][[][]P]P]
+
+
+
+\''\
+}+{]
+    \}+_{
+    +_
+    }
