@@ -58,7 +58,7 @@ const FeedbackCarousel = () => {
       {/* Left Button */}
       <button
         onClick={goPrev}
-        className=" mt-4 top-1/2 group -left-10 transform -translate-y-1/2  border-[#ffbd39] border-2 hover:bg-[#ffbd39] text-white rounded-full  p-[6px] shadow-md transition-colors duration-300"
+        className=" mt-4 cursor-pointer top-1/2 group -left-10 transform -translate-y-1/2  border-[#ffbd39] border-2 hover:bg-[#ffbd39] text-white rounded-full  p-[6px] shadow-md transition-colors duration-300"
       >
         <ChevronLeft
           className="text-[#ffbd39] group-hover:text-white"
@@ -84,7 +84,7 @@ const FeedbackCarousel = () => {
       {/* Right Button */}
       <button
         onClick={goNext}
-        className=" top-1/2 mt-4 group -left-10 transform -translate-y-1/2  border-[#ffbd39] border-2 hover:bg-[#ffbd39] text-white rounded-full  p-[6px] shadow-md transition-colors duration-300"
+        className=" top-1/2 cursor-pointer mt-4 group -left-10 transform -translate-y-1/2  border-[#ffbd39] border-2 hover:bg-[#ffbd39] text-white rounded-full  p-[6px] shadow-md transition-colors duration-300"
       >
         <ChevronRight
           className="text-[#ffbd39] group-hover:text-white"

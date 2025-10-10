@@ -70,6 +70,13 @@
   font-style: normal;
   font-variation-settings: "wdth" 600;
 }
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 600;
+}
 .roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
