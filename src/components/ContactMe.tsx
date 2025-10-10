@@ -9,7 +9,7 @@ const ContactMe = () => {
     const heading = "Etiam suscipit ante at sem facilisis, id sagittis nunc aliquet. Vivamus sodales elementum pharetra. Cras dignissim justo eu accumsan vulputate."
 
     return (
-        <div className="bg-[#312f30] pb-[40px] md:pb-[100px] pt-[40px] md:pt-[100px]">
+        <div id="CONTACT" className="bg-[#312f30] pb-[40px] md:pb-[100px] pt-[40px] md:pt-[100px]">
             <SectionTittle tittle={tittle} heading={heading} />
             <CenterAlign>
                 <div className=" flex items-center justify-center ">

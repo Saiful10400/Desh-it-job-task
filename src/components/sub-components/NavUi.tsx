@@ -17,7 +17,7 @@ const NavUi = () => {
                 {/* nav route. */}
                 <ul className=" gap lg:flex hidden">
                     {navRoutes.map((route) => (<li key={route}>
-                        <a className="px-[18px] py-[10px] text-[15px] hover:text-white text-gray-300" href={"#" + route}>{route}</a>
+                        <a className="px-[18px] py-[10px] text-[15px] hover:text-white text-gray-300" href={route==="HOME"?"#":"#" + route}>{route}</a>
                     </li>))}
                 </ul>
                 <MobileNavButton clicked={clicked} tauglerFn={setClicked} />

@@ -11,6 +11,7 @@ import Portfolio from "../components/Portfolio";
 import Resume from "../components/Resume";
 import Service from "../components/Service";
 import PortfolioImageFullScreen from "../components/sub-components/PortfolioImageFullScreen";
+import ScrollToTop from "../components/sub-components/ScrollToTop";
 
 
 
@@ -34,6 +35,7 @@ const Home = () => {
             <Footer />
             <CopyRight />
             <PortfolioImageFullScreen fullscreenFn={setFullscreen} isActive={Fullscreen} />
+            <ScrollToTop />
         </div>
     );
 };

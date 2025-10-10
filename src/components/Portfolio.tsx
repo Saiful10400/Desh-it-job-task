@@ -114,7 +114,7 @@ const Portfolio= ({fullscreenFn}:{fullscreenFn:React.Dispatch<React.SetStateActi
     <CenterAlign>
       <SectionTittle tittle={tittle} heading={heading} />
 
-      <div>
+      <div id="PORTFOLIO">
         <div className="flex justify-center items-center pb-[45px] flex-wrap gap-2">
           {["all", "web", "app", "card"].map((cat) => (
             <button
