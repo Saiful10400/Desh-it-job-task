@@ -101,20 +101,20 @@ const AboutMeAchivement = () => {
 
 
     return (
-        <div className=" flex justify-end flex-wrap gap-[25px] text-white min-w-[42%] mb-5">
-            <div className="w-[250px] h-[140px] bg-[#3e3c3d] flex flex-col justify-center items-center">
+        <div className=" grid grid-cols-1 md:grid-cols-2 gap-[25px] text-white w-full lg:min-w-[42%] mb-5">
+            <div className="w-full h-[140px] bg-[#3e3c3d] flex flex-col justify-center items-center">
                 <span className="text-[40px] poppins-bold">{client}</span>
                 <span id="client" ref={clientRef} className="text-[16px] text-[#ccc]">Happy Client</span>
             </div>
-            <div className="w-[250px] h-[140px] bg-[#3e3c3d] flex flex-col justify-center items-center">
+            <div className="w-w-full h-[140px] bg-[#3e3c3d] flex flex-col justify-center items-center">
                 <span className="text-[40px] poppins-bold">{sales}</span>
                 <span id="sales" ref={salestRef} className="text-[16px] text-[#ccc]">Sales</span>
             </div>
-            <div className="w-[250px] h-[140px] bg-[#3e3c3d] flex flex-col justify-center items-center">
+            <div className="w-w-full h-[140px] bg-[#3e3c3d] flex flex-col justify-center items-center">
                 <span className="text-[40px] poppins-bold">{project}</span>
                 <span id="project" ref={projectRef} className="text-[16px] text-[#ccc]">Projects Complete</span>
             </div>
-            <div className="w-[250px] h-[140px] bg-[#3e3c3d] flex flex-col justify-center items-center">
+            <div className="w-w-full h-[140px] bg-[#3e3c3d] flex flex-col justify-center items-center">
                 <span className="text-[40px] poppins-bold">{experience}</span>
                 <span id="exp" ref={experienceRef} className="text-[16px] text-[#ccc]">Experience</span>
             </div>
