@@ -36,7 +36,7 @@ const imageArr = [
 const Portfoliov2 = () => {
     const [images, setImages] = useState(imageArr)
     const [notIncludeId,setNotIncludeId]=useState<number[]>([])
-
+console.log(notIncludeId)
 
     const placeMentDefiner = (index: number) => {
         return { left: (index >= 3 ? index - 3 : index) * 400 + "px", top: index >= 3 ? "220px" : "0px" }
