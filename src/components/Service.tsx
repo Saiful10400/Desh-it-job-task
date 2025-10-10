@@ -33,12 +33,14 @@ const Service = () => {
     const tittle = "Our Services"
     const heading = "Etiam suscipit ante at sem facilisis, id sagittis nunc aliquet. Vivamus sodales elementum pharetra. Cras dignissim justo eu accumsan vulputate."
     return (
+        <div className=" pb-[40px] md:pb-[100px] pt-[40px] md:pt-[100px]">
         <CenterAlign>
             <SectionTittle tittle={tittle} heading={heading} />
-            <div className="grid grid-cols-3 gap-[34px] pb-[100px]">
+            <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-[34px]">
                 {demoData?.map((item, key) => <ServiceCard data={item} key={key} />)}
             </div>
         </CenterAlign>
+        </div>
     );
 };
 

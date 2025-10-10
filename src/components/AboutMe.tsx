@@ -8,8 +8,8 @@ const AboutMe: React.FC = () => {
     return (
        <div className="bg-[#312f2f]">
         <CenterAlign>
-         <section className="flex items-center lg:flex-row flex-col lg:gap-6 gap-[47px]  text-[#b2b0b1] pt-[40px] md:pt-[100px]">
-            <div className="max-w-4xl mx-auto flex flex-col min-w-[58%]">
+         <section className="flex items-center lg:flex-row flex-col lg:gap-6 gap-[47px]  text-[#b2b0b1] pb-[40px] md:pb-[100px] pt-[40px] md:pt-[100px]">
+            <div className="max-w-4xl mx-auto flex flex-col min-w-[50%]">
                 {/* Title */}
                 <h3 className="text-[#ffbd39] text-xl font-semibold tracking-wide mb-[15px]">
                     About Me
